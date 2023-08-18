@@ -19,7 +19,7 @@ Certainly! Here's a professional README file that summarizes the setup, features
 
 ## Description
 
-This is a basic To-Do List application built using Spring Boot. It allows users to manage tasks by providing features to add, view, and delete tasks. The application uses an Mysql database and provides REST API endpoints to interact with tasks.
+This is a basic To-Do List application built using Spring Boot. It allows users to manage tasks by providing features to add, view, and delete tasks. The application uses Mysql database and provides REST API endpoints to interact with tasks.
 
 ## Requirements
 
