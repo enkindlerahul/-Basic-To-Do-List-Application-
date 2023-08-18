@@ -7,7 +7,6 @@ Certainly! Here's a professional README file that summarizes the setup, features
 
 # ToDo List Application with Spring Boot
 
-![Spring Boot Logo](https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg)
 
 ## Table of Contents
 
