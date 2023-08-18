@@ -78,7 +78,8 @@ spring.jpa.show-sql=true
    - URL: `http://localhost:8080/tasks`
    - Request Body (JSON):\
    Json Structure
-    { "title": "Read Book",
+    {
+     "title": "Read Book",
     "description": "Read the new novel",
     "completed": true
     }
