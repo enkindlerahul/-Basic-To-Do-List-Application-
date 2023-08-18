@@ -76,14 +76,12 @@ spring.jpa.show-sql=true
 
 1. **Add a new task** (POST):
    - URL: `http://localhost:8080/tasks`
-   - Request Body (JSON):
-     ```json Structure
-     {
-    "title": "Read Book",
+   - Request Body (JSON):\
+   Json Structure
+    { "title": "Read Book",
     "description": "Read the new novel",
     "completed": true
-      }
-     ```
+    }
 
 2. **View all tasks** (GET):
    - URL: `http://localhost:8080/tasks`
