@@ -4,7 +4,6 @@ Efficiently manage tasks using our Spring Boot ToDo List app. Add, view, and del
 
 Certainly! Here's a professional README file that summarizes the setup, features, and usage of your Spring Boot ToDo List application:
 
----
 
 # ToDo List Application with Spring Boot
 
