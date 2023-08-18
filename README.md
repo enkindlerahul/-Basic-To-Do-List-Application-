@@ -23,7 +23,7 @@ This is a basic To-Do List application built using Spring Boot. It allows users 
 
 ## Requirements
 
-- Java 1.8 or higher
+- Java 1.8 
 - Spring Boot
 - MySQL database
 - Postman (for testing API endpoints)
