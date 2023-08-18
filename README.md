@@ -32,15 +32,17 @@ This is a basic To-Do List application built using Spring Boot. It allows users 
 
 1. Clone or download this repository to your local machine.
 2. Set up your MySQL database and update the database configuration in `src/main/resources/application.properties`.
+
 # My Mysql database:
    
-* Database Configuration
-spring.datasource.url=jdbc:mysql://localhost:3306/todo_list_db?useSSL=false&serverTimezone=UTC    ----Add your database name my Database name is todo_list_db
+# Database Configuration
+  spring.datasource.url=jdbc:mysql://localhost:3306/todo_list_db?useSSL=false&serverTimezone=UTC    ----Add your database name my 
+         Database name is todo_list_db
 
-spring.datasource.username=**** ----------Add your username
-spring.datasource.password=**** ----------Add your passowrd
+  spring.datasource.username=**** ----------Add your username   
+  spring.datasource.password=**** ----------Add your passowrd
 
-* Hibernate Configuration
+# Hibernate Configuration
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
@@ -73,12 +75,12 @@ spring.jpa.show-sql=true
 1. **Add a new task** (POST):
    - URL: `http://localhost:8080/tasks`
    - Request Body (JSON):
-     ```json
+     ```json Structure
      {
     "title": "Read Book",
     "description": "Read the new novel",
     "completed": true
- }
+      }
      ```
 
 2. **View all tasks** (GET):
