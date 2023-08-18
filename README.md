@@ -36,8 +36,8 @@ This is a basic To-Do List application built using Spring Boot. It allows users 
 # My Mysql database:
    
 # Database Configuration
-  spring.datasource.url=jdbc:mysql://localhost:3306/todo_list_db?useSSL=false&serverTimezone=UTC    ----Add your Mysql database name my 
-       Mysql Database name is todo_list_db
+  spring.datasource.url=jdbc:mysql://localhost:3306/todo_list_db?useSSL=false&serverTimezone=UTC    ----Add your Mysql database
+  name my Mysql Database name is todo_list_db
 
   spring.datasource.username=**** ----------Add your username   
 
