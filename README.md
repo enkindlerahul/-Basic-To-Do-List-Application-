@@ -19,7 +19,7 @@ Certainly! Here's a professional README file that summarizes the setup, features
 
 ## Description
 
-This is a basic To-Do List application built using Spring Boot. It allows users to manage tasks by providing features to add, view, and delete tasks. The application uses Mysql database and provides REST API endpoints to interact with tasks.
+This is a basic To-Do List application built using Spring Boot. It allows users to manage tasks by providing features to add, view, update and delete tasks. The application uses Mysql database and provides REST API endpoints to interact with tasks.
 
 ## Requirements
 
@@ -58,6 +58,7 @@ spring.jpa.show-sql=true
 - Add a new task
 - View all tasks
 - View a specific task by ID
+- Update a specific task by ID
 - Delete a task by ID
 
 ## Usage
@@ -70,6 +71,7 @@ spring.jpa.show-sql=true
 - Add a new task (POST): `http://localhost:8080/tasks`
 - View all tasks (GET): `http://localhost:8080/tasks`
 - View a specific task by ID (GET): `http://localhost:8080/tasks/{id}`
+- Update a specific task by ID (PUT): `http://localhost:8080/tasks/{id}`        
 - Delete a task by ID (DELETE): `http://localhost:8080/tasks/{id}`
 
 ## Example Requests
@@ -88,6 +90,9 @@ spring.jpa.show-sql=true
    - URL: `http://localhost:8080/tasks`
 
 3. **View a specific task by ID** (GET):
+   - URL: `http://localhost:8080/tasks/{id}`
+
+4. **Update a specific task by ID** (PUT):
    - URL: `http://localhost:8080/tasks/{id}`
 
 4. **Delete a task by ID** (DELETE):
