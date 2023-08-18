@@ -71,7 +71,7 @@ spring.jpa.show-sql=true
 - Add a new task (POST): `http://localhost:8080/tasks`
 - View all tasks (GET): `http://localhost:8080/tasks`
 - View a specific task by ID (GET): `http://localhost:8080/tasks/{id}`
-- Update a specific task by ID (PUT): `http://localhost:8080/tasks/{id}`        
+- Update a specific task by ID (PUT): `http://localhost:8080/tasks/{id}`       
 - Delete a task by ID (DELETE): `http://localhost:8080/tasks/{id}`
 
 ## Example Requests
