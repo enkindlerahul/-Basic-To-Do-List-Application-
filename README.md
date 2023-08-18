@@ -40,6 +40,8 @@ This is a basic To-Do List application built using Spring Boot. It allows users 
          Database name is todo_list_db
 
   spring.datasource.username=**** ----------Add your username   
+
+  
   spring.datasource.password=**** ----------Add your passowrd
 
 # Hibernate Configuration
